@@ -20,10 +20,10 @@ function events() {
           integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
           crossorigin="anonymous"
         />
-        <script
+        {/* <script
           src="https://kit.fontawesome.com/36f3a0ef1b.js"
           crossorigin="anonymous"
-        ></script>
+        ></script> */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -64,7 +64,7 @@ function events() {
                     <img src="Sample.png" />
                   </div>
                   <div class="col-lg-5 sec-3">
-                    <div class="title">Speaker's session</div>
+                    <div class="title">Speaker &apos; s session</div>
                     <div class="venue">
                       <table>
                         <tr>
@@ -226,7 +226,7 @@ function events() {
                       terms and concepts in this fun- filled event. Participants
                       will showcase their communication skills, quick thinking,
                       and data science acumen as they creatively act out and
-                      guess various data-related terms. It's a unique
+                      guess various data-related terms. It&apos; s a unique
                       opportunity to learn, laugh, and connect with like-minded
                       data enthusiasts
                     </div>
@@ -291,10 +291,10 @@ function events() {
                       your analytical prowess! Each team will receive the same
                       dataset and have 12 hours to study and extract valuable
                       insights. Utilize your classroom time to present your
-                      findings to the judge's panel. This is your chance to
+                      findings to the judge&apos;s panel. This is your chance to
                       showcase your data analysis skills, creativity, and
                       ability to derive meaningful conclusions from data. The
-                      winner will be crowned based on the judges' evaluation of
+                      winner will be crowned based on the judges&apos; evaluation of
                       your insights and presentation. Get ready to make data
                       speak and unleash the power of visual storytelling!
                     </div>
@@ -360,7 +360,7 @@ function events() {
                       By securing early access and engaging in hands-on
                       experiences, participants will gain a competitive edge,
                       propelling them to the forefront of their respective
-                      fields. Don't miss this opportunity to stay ahead of the
+                      fields. Don&apos;t miss this opportunity to stay ahead of the
                       curve and embrace the future of innovation
                     </div>
                     <div class="group-of-btn">
@@ -427,7 +427,7 @@ function events() {
                       diverse approaches to resolve the given problem. Fuel your
                       creativity, collaborate with your team, and push the
                       boundaries of technology. Prizes await the most
-                      exceptional solutions and brilliant minds. Don't miss this
+                      exceptional solutions and brilliant minds. Don&apos;t miss this
                       incredible opportunity to showcase your skills and make a
                       real impact
                     </div>
@@ -475,7 +475,7 @@ function events() {
                       working prototype of the solution. The solutions had to be
                       implemented using Open Source technologies only. This
                       challenging and practical final round showcased the
-                      participants' ability to apply their data science skills
+                      participants&apos; ability to apply their data science skills
                       to real-world scenarios and fostered creativity and
                       problem-solving
                     </div>
@@ -508,7 +508,7 @@ function events() {
                       {" "}
                       We hosted fun data science events with puzzles,
                       crosswords, grids, and rapid-fire questions to test
-                      participants' familiarity with essential tools and
+                      participants&apos; familiarity with essential tools and
                       libraries. The goal was to assess and improve their data
                       science skills with the guidance of mentors. Learning was
                       made interactive and enjoyable throughout the event.
@@ -577,7 +577,7 @@ function events() {
                     <div class="title">Data Analytics Challenge</div>
                     <div class="Description mt-8">
                       {" "}
-                      The event challenged the participants' wits and agility.
+                      The event challenged the participants&apos; wits and agility.
                       The time limit of 20 minutes for 30 questions pumped up
                       the thrill in the participants during the first round.
                       This challenge was designed to test the overall smartness
@@ -613,10 +613,10 @@ function events() {
                   <div class="col-lg-5 sec-3">
                     <div class="title">Blogathon</div>
                     <div class="Description mt-8">
-                      As data exploitation became crucial in today's corporate
+                      As data exploitation became crucial in today&apos;s corporate
                       world, being a tech blogger allows us to manifest our
                       adroitness and contribute to the field of data science.
-                      The event, Blogathon contest of Data Science Summit'22,
+                      The event, Blogathon contest of Data Science Summit&apos;22,
                       provided participants with an avenue to express their
                       insights and knowledge in the form of a blog, empowering
                       them to be data science bloggers.
