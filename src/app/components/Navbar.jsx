@@ -1,7 +1,8 @@
 //@ts-nocheck
-"use client"; 
+"use client";
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
+import "../css/page.css";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,11 +10,11 @@ function Nav() {
     <div>
       <nav className="bg-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
+          <div className="navbar-css h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <img
-                  className="h-8 w-8"
+                  className="h-10 w-10"
                   src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
                   alt="Workflow"
                 />
@@ -49,20 +50,25 @@ function Nav() {
                   </a>
 
                   <a
-                    href="#"
+                    href="events"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Reports
+                    Events
                   </a>
-                  <a className="flex flex-row items-center bg-slate-500 hover:bg-slate-300 hover:text-slate-800 py-2 px-3 rounded-md justify-center" href="#">
-
-                  <img src="/file.png" className="w-[1rem] mr-2 flex justify-center items-center"/><div className="flex justify-center items-center">Catalogue</div> 
+                  <a
+                    className="flex flex-row items-center bg-slate-500 hover:bg-slate-300 hover:text-slate-800 py-2 px-3 rounded-md justify-center"
+                    href="#"
+                  >
+                    <img
+                      src="/file.png"
+                      className="w-[1rem] mr-2 flex justify-center items-center"
+                    />
+                    <div className="flex justify-center items-center">
+                      Catalogue
+                    </div>
                   </a>
                 </div>
-
               </div>
-           
-              
             </div>
             <div className="-mr-2 flex md:hidden">
               <button
@@ -152,29 +158,30 @@ function Nav() {
                 </a>
 
                 <a
-                  href="#"
+                  href="events"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Reports
+                  Events
                 </a>
-                <a className="flex flex-row items-center bg-slate-500 py-2 px-3 rounded-md justify-center w-[8rem] hover:bg-slate-300 hover:text-slate-800" href="#">
-
-                  <img src="/file.png" className="w-[1rem] mr-2 flex justify-center items-center "/><div className="flex justify-center items-center ">Catalogue</div> 
-                  </a>
+                <a
+                  className="flex flex-row items-center bg-slate-500 py-2 px-3 rounded-md justify-center w-[8rem] hover:bg-slate-300 hover:text-slate-800"
+                  href="#"
+                >
+                  <img
+                    src="/file.png"
+                    className="w-[1rem] mr-2 flex justify-center items-center "
+                  />
+                  <div className="flex justify-center items-center ">
+                    Catalogue
+                  </div>
+                </a>
               </div>
             </div>
           )}
         </Transition>
       </nav>
-
-      
     </div>
   );
 }
 
 export default Nav;
-
-
-
-
-
